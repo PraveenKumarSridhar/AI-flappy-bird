@@ -6,11 +6,11 @@ BIRDS_IMGS = [pygame.transform.scale2x(pygame.image.load(os.path.join("src","img
     pygame.transform.scale2x(pygame.image.load(os.path.join("src","imgs","bird2.png"))),\
         pygame.transform.scale2x(pygame.image.load(os.path.join("src","imgs","bird3.png")))]
 # load the pipe image.
-PIPE_IMGS = pygame.transform.scale2x(pygame.image.load(os.path.join("src","imgs","pipe.png")))
+PIPE_IMG = pygame.transform.scale2x(pygame.image.load(os.path.join("src","imgs","pipe.png")))
 # load the base image.
-BASE_IMGS = pygame.transform.scale2x(pygame.image.load(os.path.join("src","imgs","base.png")))
+BASE_IMG = pygame.transform.scale2x(pygame.image.load(os.path.join("src","imgs","base.png")))
 # load the background image.
-BG_IMGS = pygame.transform.scale2x(pygame.image.load(os.path.join("src","imgs","bg.png")))
+BG_IMG = pygame.transform.scale2x(pygame.image.load(os.path.join("src","imgs","bg.png")))
 
 # BIRD class
 class Bird:
@@ -94,8 +94,8 @@ class Pipe:
         self.top = 0
         self.bottom = 0
         # get the image for the pipes
-        self.PIPE_TOP = pygame.transform.flip(PIPE_IMGS,False,True)
-        self.PIPE_BOTTOM = PIPE_IMGS 
+        self.PIPE_TOP = pygame.transform.flip(PIPE_IMG,False,True)
+        self.PIPE_BOTTOM = PIPE_IMG 
 
         self.passed = False
         self.set_height()
@@ -132,8 +132,8 @@ class Pipe:
 
 class Base:
     VEL  = 5
-    WIDTH = BASE_IMGS.get_width()
-    IMG = BASE_IMGS
+    WIDTH = BASE_IMG.get_width()
+    IMG = BASE_IMG
 
     def __init__(self,y):
         self.y = y
@@ -162,7 +162,7 @@ class Base:
 
 
 def draw_window (win,bird):
-    win.blit(BG_IMGS,(0,0))
+    win.blit(BG_IMG,(0,0))
     bird.draw(win)
     pygame.display.update()
 
