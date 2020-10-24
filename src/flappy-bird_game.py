@@ -110,7 +110,7 @@ class Pipe:
     
     def draw(self,win):
         win.blit(self.PIPE_TOP,(self.x,self.top)) # draws the image , here the tuple signifies rectage (len,width)
-        win.blit(self.PIPE_TOP,(self.x,self.bottom))
+        win.blit(self.PIPE_BOTTOM,(self.x,self.bottom))
 
     def collide(self,bird):
         bird_mask = bird.get_mask()
