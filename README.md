@@ -22,10 +22,10 @@ pip install neat-python
 ### Steps to run
 <hr/>
 
-Just run the `flappy-bird_game.py` and watch as the AI train itself to play the game file as follows:
+Just run the `flappy_bird_game.py` and watch as the AI train itself to play the game file as follows:
 
 ```
-python falppy-bird_game.py 
+python falppy_bird_game.py 
 ```
 
 ### Demo of the AI learning:
