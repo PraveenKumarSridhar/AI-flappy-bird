@@ -33,3 +33,7 @@ python falppy-bird_game.py
 
 <img align="center" alt="GIF" src="https://raw.githubusercontent.com/PraveenKumarSridhar/AI-flappy-bird/main/assets/Ai-playing.gif" width="500" height="300" />
 
+### Link to the paper:
+<hr/>
+http://nn.cs.utexas.edu/downloads/papers/stanley.cec02.pdf
+
