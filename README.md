@@ -1,5 +1,4 @@
 # AI-flappy-bird
-<hr/>
 
 [![GitHub issues](https://img.shields.io/github/issues/PraveenKumarSridhar/AI-flappy-bird?style=for-the-badge)](https://github.com/PraveenKumarSridhar/AI-flappy-bird/issues)
 [![GitHub forks](https://img.shields.io/github/forks/PraveenKumarSridhar/AI-flappy-bird?style=for-the-badge)](https://github.com/PraveenKumarSridhar/AI-flappy-bird/network)
